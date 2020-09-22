@@ -1,0 +1,21 @@
+{
+    "name": "pdapps/kanbani-data",
+    "description": "Kanbani data parsers for PHP",
+    "keywords": ["kanbani"],
+    "homepage": "https://pdapps.org/kanbani",
+    "readme": "README.md",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/PDApps/KanbaniDataPHP/issues",
+        "source": "https://github.com/PDApps/KanbaniDataPHP"
+    },
+    "suggest": {
+        "ext-openssl": "Required for manipulating encrypted profiles"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "classmap": ["qrcode.php", "sync.php"]
+    }
+}
