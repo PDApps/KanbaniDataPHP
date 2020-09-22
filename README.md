@@ -1,14 +1,15 @@
 # Kanbani data parsers for PHP
 
-These files enable interop with [Kanbani](https://pdapps.org/kanbani) - a free task manager for Android. In particular, they are used in [Kanbani Web Viewer](https://pdapps.org/kanbani/web) - a simple Trello-like Kanbani board browser.
+These scripts enable interop with [Kanbani](https://pdapps.org/kanbani) - a free task manager for Android. In particular, they are used in [Kanbani Web Viewer](https://pdapps.org/kanbani/web) - a simple Trello-like Kanbani board browser.
 
 ```
-composer install pdapps/kanbani-data
+composer require pdapps/kanbani-data
 ```
 
 ## Requirements
 
 - PHP 5.6 or 7.x
+- `openssl` (if working with encrypted profiles)
 
 ## What's inside
 
